@@ -9,7 +9,7 @@ If we can help people to analyze the snoring modalities "without feeling" and us
 
 ## Hardware design and parameters
 
-To achieve the effect of analyzing the snoring mode, the first key point is the radio.
+To achieve the effect of analyzing the snoring mode, the first key point is the how to collect voice.
 I designed three ultra-mini condenser INMP441 microphones to form an array, which can receive sounds over the range of 185 degrees, and we also designed a compensation algorithm that can superimpose these microphones and compensate for details, so that the entire analysis sample can be included. It is more complete, coupled with the shell as a windshield, it can avoid receiving too noisy ambient sound like an electric fan.
 So at present, we have good sound effects within one meter.
 
