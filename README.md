@@ -18,4 +18,4 @@ So at present, we have good sound effects within one meter.
 When the system receives a sound, the first part will first identify whether there is a snoring sound, so what do we do?
 We will use Fast Fourier Transform and Wavelet Transform to find the fundamental frequency, frequency centroid, and sound quality of this sound, and use these characteristics as features, and use classification algorithms to classify these features into human voice, environmental sound, speech, or Scream.
 Next, we need to use the frequency band and characteristics of this snoring to determine if it is abnormal. I use LSTM with Gaussian anomaly detection algorithm to detect.
-We use the database provided by Kaggle for training, our accuracy rate can reach 90%
+We use the database provided by Kaggle for training, our accuracy rate can reach 90%.
